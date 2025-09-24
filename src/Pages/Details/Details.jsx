@@ -6,7 +6,7 @@ import "./Details.css"
 import { useLocation, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const apiUrl = "https://reservebus-36ih.onrender.com";
+const apiUrl = "https://reserve-bus-frontend-project-almax.vercel.app";
 
 const Details = () => {
     const { state } = useLocation();

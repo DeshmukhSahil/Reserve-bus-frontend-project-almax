@@ -4,7 +4,7 @@ import moment from "moment";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
 
-const apiUrl = "https://reservebus-36ih.onrender.com";
+const apiUrl = "https://reserve-bus-frontend-project-almax.vercel.app";
 
 const MyBusTickets = () => {
   const [tickets, setTickets] = useState([]);

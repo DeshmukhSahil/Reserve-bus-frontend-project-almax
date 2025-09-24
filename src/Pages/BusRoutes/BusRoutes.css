@@ -16,6 +16,7 @@
 
 .bus-div {
     background-color: #fff;
+    min-height: 100vh;
 }
 
 /* .seat {

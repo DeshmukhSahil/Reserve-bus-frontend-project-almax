@@ -19,7 +19,7 @@ import primo2 from "../../Assets/primo2.PNG";
 import primo3 from "../../Assets/primo3.PNG";
 import CustomMessege from "../../Components/CustomMessage";
 
-const apiUrl = "https://reservebus-36ih.onrender.com";
+const apiUrl = "https://reserve-bus-frontend-project-almax.vercel.app";
 
 function HomePage() {
   const Navigate = useNavigate();
@@ -296,7 +296,7 @@ function HomePage() {
        {/* Render the custom alert component when showAlert is true */}
        {showAlert && (
         <CustomMessege
-          message="Check the journey from Nagpur-Pune or Pune-Nagpur on date 15-09-2023 OR from Nashik-Dhule or Dhule-Nashik on date 28-09-2023"
+          message="Check the journey from Mumbai-Pune on date 30-09-2025"
           onClose={handleAlertClose}
         />
       )}
